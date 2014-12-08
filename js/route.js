@@ -69,7 +69,7 @@ app.config(function($routeProvider) {
             })
             .when("/knowledge", {
                 templateUrl: "content/knowledge.html",
-                pageTitle:"银离子知识",
+                pageTitle:"行业知识",
                 transition: "slide"
             })
             .when("/summary", {
@@ -81,7 +81,7 @@ app.config(function($routeProvider) {
             })
             .when("/question", {
                 templateUrl: "content/question.html",
-                pageTitle:"银离子疑问",
+                pageTitle:"疑问解答",
                 transition: "slide",
                 reverse: false
             })
