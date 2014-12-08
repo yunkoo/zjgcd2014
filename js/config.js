@@ -8,8 +8,8 @@ var APP_ACTION = {
     summaryURL: SERVER + '/Company/summary/',/*企业概况*/
     newsURL: SERVER + '/Article/', /*新闻资讯*/
     newsDetailURl: SERVER + '/Article/get_articlecontent/',  /*新闻详情*/
-    knowledgeURL: SERVER + '/Article/get_ylz_knowledge/', /*行业知识*/
-    questionURL: SERVER + '/Faq/get_questions', /*疑问解答*/
+    knowledgeURL: SERVER + '/Article/get_ylz_knowledge/', /*银离子知识*/
+    questionURL: SERVER + '/Faq/get_questions', /*银离子疑问*/
     registerURL: SERVER + '/User/register',  /*注册*/
     loginURL: SERVER + '/User/login', /*登录*/
     logoutURL: SERVER + '/User/logout', /*退出*/
